@@ -6,7 +6,7 @@
 
     <ul>
     <router-link to ='/' ><button>Home</button></router-link> 
-    <router-link to ='/TiendaView'><button>Tienda</button></router-link> 
+    <router-link to ='/UdalekusView'><button>Udalekus</button></router-link> 
     <router-link to ='/CursosView'><button>Cursos</button></router-link> 
     <router-link to ='/BlogView'><button>Blog</button></router-link> 
     <router-link to ='/InformacionView'><button>Informacion</button></router-link>  

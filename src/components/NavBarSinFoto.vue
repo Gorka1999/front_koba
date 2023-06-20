@@ -5,7 +5,7 @@
     
         <ul>
         <router-link  to ='/' ><button>Home</button></router-link> 
-        <router-link class="fit" to ='/TiendaView' ><button >Tienda</button></router-link> 
+        <router-link class="fit" to ='/UdalekusView' ><button >Udalekus</button></router-link> 
         <router-link class="fit" to ='/CursosView' ><button >Cursos</button></router-link> 
         <router-link class="fit" to ='/BlogView' ><button >Blog</button></router-link> 
         <router-link class="fit" to ='/InformacionView' ><button >Informacion</button></router-link>  
@@ -31,8 +31,8 @@
         
         justify-content: center;
         object-fit: contain;
-        height: 36rem;
-        /* background-image: url(@/assets/imgHome/fotoNabVar2.jpg); */
+        height: 10rem;
+        background-color:  rgba(58, 133, 8, 0.206);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -79,9 +79,9 @@
     
     .logo{
         
-        height: 10%;
-        margin-top: 2rem;
-        margin-left: 2rem;
+        height: 80%;
+        /* margin-top: 2rem; */
+        /* margin-left: 2rem; */
     }
 
    
@@ -93,3 +93,5 @@
     
     
     </style>
+
+    rgba(0, 0, 255, 0.245)

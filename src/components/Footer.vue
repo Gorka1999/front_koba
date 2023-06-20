@@ -5,7 +5,7 @@
         <div class="redesSociales">
 
             <div class="iconos">
-                <a href="https://instagram.com/"><i class="fa-brands fa-instagram fa-bounce"></i></a>
+                <a href="https://www.instagram.com/kobasurfeskola/"><i class="fa-brands fa-instagram fa-bounce"></i></a>
                 <a href="https://tiktok.com/"><i class="fa-brands fa-tiktok fa-bounce"></i></a>
                 <a href="https://twitter.com/"> <i class="fa-brands fa-twitter fa-bounce"></i></a>
                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-bounce" ></i></a>

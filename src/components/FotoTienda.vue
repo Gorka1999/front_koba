@@ -3,9 +3,9 @@
 <div class="fotosLink">
 
     <div class="linkTienda">
-        <a href="TiendaView"><img class="tienda" src="../assets/imgHome/tablas.jpg" alt="tiendaTablas"></a>
+        <a href="UdalekusView"><img class="udalekus" src="../assets/imgHome/tablas.jpg" alt="tiendaTablas"></a>
 
-        <h3>TIENDA</h3>
+        <h3>UDALEKUS</h3>
     </div>
 
     <div>
@@ -48,7 +48,7 @@ h3{
     margin-top: 3rem;
 }
 
-.tienda{
+.udalekus{
     width: 25rem;
 }
 

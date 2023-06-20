@@ -2,7 +2,7 @@
     <NavBarSinFoto/> 
     <Cursos /> 
     <Footer />
-    <h1>cursos</h1>
+    
     
     </template>
     

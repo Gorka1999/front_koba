@@ -9,14 +9,14 @@ const routes = [
     exact: true 
   },
   {
-    path: '/TiendaView',
-    name: 'TiendaView',
+    path: '/UdalekusView',
+    name: 'UdalekusView',
     
 
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/TiendaView.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/UdalekusView.vue'),
     exact: true
   },
   {

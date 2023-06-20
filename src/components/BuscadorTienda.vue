@@ -26,7 +26,9 @@
   
   input[type="text"] {
     padding: 0.5rem;
-    margin-right: 0.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    
   }
   
   button {
@@ -35,6 +37,8 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-right: 50rem;
+
   }
   
   button:hover {
