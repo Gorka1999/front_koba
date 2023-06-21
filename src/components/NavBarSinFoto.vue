@@ -32,7 +32,7 @@
         justify-content: center;
         object-fit: contain;
         height: 10rem;
-        background-color:  rgba(58, 133, 8, 0.206);
+        background-color:  rgba(0, 0, 0, 0.287);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -73,7 +73,7 @@
     button{
         width: 6rem;
         height: 3rem;
-        background-color:  rgba(58, 133, 8, 0.206);
+        background-color:  rgba(0, 0, 0, 0.539);
         border-radius: 0.5rem;  
     }
     
@@ -86,12 +86,14 @@
 
    
 
-     .router-link-exact-active{
-         background-color: rgba(58, 133, 8, 0.206);
-} 
+    .router-link-exact-active{
+    background-color: rgba(0, 0, 0, 0.287);
+}  
 
     
     
     </style>
 
     rgba(0, 0, 255, 0.245)
+
+    color_navBar,verde. ==> rgba(58, 133, 8, 0.206);

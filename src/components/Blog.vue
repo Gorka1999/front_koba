@@ -3,7 +3,7 @@
 <style>
 
 .router-link-exact-active{
-    background-color: rgba(58, 133, 8, 0.206);
-}
+    background-color: rgba(0, 0, 0, 0.287);
+} 
 
 </style>

@@ -2,7 +2,7 @@
 
 <!-- <NavBar/> -->
 <NavBarSinFoto/> 
-<BuscadorTienda/>
+<!-- <BuscadorTienda/> -->
 <Udalekus /> 
 <Footer />
 

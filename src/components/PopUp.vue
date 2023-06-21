@@ -3,7 +3,7 @@
       <!-- Modal del pop-up -->
       <div v-if="showPopup" class="modal">
         <div class="modal-content">
-          <div class="left-box">
+          <form @submit.prevent="new_user" class="left-box">
             <!-- Campos del formulario -->
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" v-model="nombre" required>
@@ -17,8 +17,8 @@
             <label for="correo">Correo electrónico:</label>
             <input type="email" id="correo" v-model="correo" required>
   
-            <button @click="enviarFormulario">Enviar</button>
-          </div>
+            <button type="submit">Enviar</button>
+          </form>
   
           <div class="right-box">
             <!-- Imagen -->
@@ -51,6 +51,18 @@
   const enviarFormulario = () => {
     // Lógica para enviar el formulario
   };
+  async function new_user(){
+    const url = "http://127.0.0.1:5000/datos"
+    await fetch(url,{
+      method: "POST",
+      headers: {'Content-Type':'application/json'},
+      // body: `{"nombre:"${nombre}","apellido:"${nombre}","telefono:"${nombre}","correo:"${nombre}"}`
+      body: `{"nombre:"prueba_nombre","apellido:"prueba_apellido","telefono:"prueba_telefono","correo:"prueba_correo"}`  
+    })
+    .catch((e) => {
+      console.log("ffffffffffffffffffffffff",e)
+    })
+  }
   </script>
   
   <style>

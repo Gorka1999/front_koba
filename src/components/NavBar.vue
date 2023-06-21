@@ -83,7 +83,7 @@ button{
     height: 3rem;
     background-color:   rgba(245, 245, 245, 0.771);
     border-radius: 0.5rem;  
-    border : 0.1rem solid rgb(34, 78, 8);
+    border : 0.1rem solid rgba(0, 0, 0, 0.539);;
     justify-content: center;
     align-items: center;
     color: black;
@@ -119,8 +119,8 @@ button{
 
 
 
-/* .router-link-exact-active{
-    background-color: rgba(58, 133, 8, 0.206);
-} */
+ .router-link-exact-active{
+    background-color: rgba(0, 0, 0, 0.287);
+} 
 
 </style>
