@@ -27,33 +27,66 @@ medio naturalde Bakio y sus alrededores.</a>
     </div>
 
     <img class="tienda_fisica" src="../assets/tienda_fisica/tienda_fisica.png" alt="tienda_fisica">
-    <img class="udalekus_M_A" src="../assets/padel_M_A/udalekus_Mikel_Anton.jpeg" alt="udalekus_M_A">
+    <img class="hamaiketako" src="../assets/capturasTablasPrecio/hamaiketako.jpg" alt="hamaiketako">
 </div>
 <div class="actividades">
+    <img class="salvamento" src="../assets/capturasTablasPrecio/salvamento.png" alt="salvamento">
     <img class="tabla_actividades" src="../assets/capturasTablasPrecio/actividades.png" alt="actividades">
+    <img class="sj_arriba" src="../assets/capturasTablasPrecio/vistas_gaztelugatxe.avif" alt="san_juan_arriba">
+</div>
+<div class="horario" >
+    <img class="tabla_horario" src="../assets/capturasTablasPrecio/planing_horario.png" alt="horario">
 </div>
 
     
 </template>
 
 <style>
-.tabla_actividades{
+
+.tabla_horario{
+    width: 30rem;    
+   margin-bottom: 2rem;
+   margin-left: 3rem;   
+   margin-right: 2rem;
+}
+
+.actividades{
+    display: flex;
+}
+
+.salvamento{
+    width: 20rem;    
+   margin-bottom: 2rem;
+   margin-right: 1rem; 
+   margin-left: 1.5rem;
+   
+}
+
+.sj_arriba{
+    width: 20rem;    
+   margin-bottom: 2rem;
+   margin-right: 5rem; 
+   margin-left: 1rem; 
+}
+
+/* .tabla_actividades{
     width: 50rem; 
    margin-top: 2rem;
    margin-bottom: 2rem;
    margin-left: 5rem;   
-}
+} */
 
 .tabla_actividades{
-   width: 40rem; 
+   width: 35rem; 
    margin-top: 2rem;
    margin-bottom: 2rem;
+   margin-bottom: 4rem;
    
-   margin-left: 25rem;   
+      
 }
 
-.udalekus_M_A{
-    width: 18rem;    
+.hamaiketako{
+    width: 25rem;    
    margin-bottom: 2rem;
    margin-right: 3rem;  
 }

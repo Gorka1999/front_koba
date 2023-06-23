@@ -2,7 +2,7 @@
     <NavBarSinFoto/> 
     <Informacion /> 
     <Footer />
-    <h1>informacion</h1>
+    
     
     </template>
     

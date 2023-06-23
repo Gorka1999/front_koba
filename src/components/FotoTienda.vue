@@ -57,6 +57,7 @@
 
 .udalekus{
     width: 25rem;
+    
 }
 
 .cursillo{

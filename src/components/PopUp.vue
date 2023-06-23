@@ -10,6 +10,9 @@
   
             <label for="apellido">Apellido:</label>
             <input type="text" id="apellido" v-model="apellido" required>
+
+            <label for="DNI">DNI:</label>
+            <input type="text" id="DNI" v-model="DNI" required>
   
             <label for="telefono">Número de teléfono:</label>
             <input type="tel" id="telefono" v-model="telefono" required>
@@ -37,6 +40,7 @@
   const showPopup = ref(true);
   const nombre = ref('');
   const apellido = ref('');
+  const DNI = ref('');
   const telefono = ref('');
   const correo = ref('');
   
@@ -57,7 +61,7 @@
       method: "POST",
       headers: {'Content-Type':'application/json'},
       // body: `{"nombre:"${nombre}","apellido:"${nombre}","telefono:"${nombre}","correo:"${nombre}"}`
-      body: `{"nombre:"prueba_nombre","apellido:"prueba_apellido","telefono:"prueba_telefono","correo:"prueba_correo"}`  
+      body: `{"nombre:"prueba_nombre","apellido:"prueba_apellido","DNI:"prueba_DNI","telefono:"prueba_telefono","correo:"prueba_correo"}`  
     })
     .catch((e) => {
       console.log("ffffffffffffffffffffffff",e)
