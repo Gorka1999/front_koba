@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="search-bar">
       <input type="text" v-model="searchQuery" placeholder="Buscar...">
       <button @click="search">Buscar</button>
@@ -45,5 +45,5 @@
     background-color: #0056b3;
   }
   </style>
-  
+   -->
 

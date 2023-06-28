@@ -1,7 +1,7 @@
 <template>
     <div class="navBar">
     
-       <router-link to ='/' ><img class="logo" src="@/assets/imgHome/logoKoba.png" alt="logo"></router-link> 
+       <router-link to ='/' ><img class="logo" src="../assets/logo/LOGOKOBA.png" alt="logo"></router-link> 
     
         <ul>
         <router-link  to ='/' ><button>Home</button></router-link> 
@@ -13,6 +13,7 @@
         
       
     </div>        
+    
        
     </template>
     

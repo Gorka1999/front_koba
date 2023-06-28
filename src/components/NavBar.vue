@@ -1,7 +1,7 @@
 <template>
 <div class="navBar">
 
-    <router-link to ='/' ><img class="logo" src="@/assets/imgHome/logoKoba.png" alt="logo"></router-link>
+    <router-link to ='/' ><img class="logo" src="../assets/logo/LOGOKOBA.png" alt="logo"></router-link>
     
 
     <ul>
@@ -40,7 +40,7 @@ function bajar(){
     justify-content: center;
     object-fit: contain;
     height: 36rem;
-    background-image: url(@/assets/imgHome/fotoNabVar2.jpg);
+    background-image: url(../assets/imgHome/MyA.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ ul{
     display: flex;
     flex-direction: row;    
     position: center;   
-    padding-top: 15rem;
+    padding-top: 5rem;
     justify-content: center;
 }
 
@@ -98,7 +98,7 @@ button{
     justify-content:center;
     align-items:center;
     flex-wrap:wrap; 
-    background-color: rgba(58, 133, 8, 0.206);
+    background-color: rgba(0, 0, 0, 0.287);
     width: 2rem;  
     margin: auto; 
  }

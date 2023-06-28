@@ -1,7 +1,7 @@
 <template>
 
 <NavBar /> 
-<PopUp/>
+<!-- <PopUp/> -->
 <Texto />
 <Udalekus />
 <Footer />

@@ -1,4 +1,5 @@
 <template>
+<div class="fondo" >
 <div class="precios_udalekus">
     
     <img class="tabla_udalekus" src="../assets/capturasTablasPrecio/precios_udalekus.png" alt="tabla_precio"> 
@@ -13,7 +14,7 @@ medio naturalde Bakio y sus alrededores.</a>
 
 <div class="incluye">
     <div>
-        <h2 class="incluye_titulo">INCLUYE</h2>
+        <h2 class="incluye_titulo">INCLUYE</h2><br>
         
         <Ul class="incluye_lista">
             <li>SEGURO DE RESPONSABILIDAD CIVIL</li>
@@ -25,28 +26,35 @@ medio naturalde Bakio y sus alrededores.</a>
             <li>USO DE NUESTRAS INSTALACIONES</li>
         </Ul>
     </div>
-
-    <img class="tienda_fisica" src="../assets/tienda_fisica/tienda_fisica.png" alt="tienda_fisica">
-    <img class="hamaiketako" src="../assets/capturasTablasPrecio/hamaiketako.jpg" alt="hamaiketako">
+    <img class="salvamento" src="../assets/capturasTablasPrecio/salvamento.png" alt="salvamento"> 
+    
+    
+    
 </div>
 <div class="actividades">
-    <img class="salvamento" src="../assets/capturasTablasPrecio/salvamento.png" alt="salvamento">
-    <img class="tabla_actividades" src="../assets/capturasTablasPrecio/actividades.png" alt="actividades">
+    <img class="tabla_actividades" src="../assets/capturasTablasPrecio/actividades.png" alt="actividades">     
     <img class="sj_arriba" src="../assets/capturasTablasPrecio/vistas_gaztelugatxe.avif" alt="san_juan_arriba">
 </div>
 <div class="horario" >
     <img class="tabla_horario" src="../assets/capturasTablasPrecio/planing_horario.png" alt="horario">
+    <img class="tienda_fisica" src="../assets/tienda_fisica/tienda_fisica.png" alt="tienda_fisica">  
+</div>
 </div>
 
     
 </template>
 
 <style>
+ 
+ .fondo{
+    background-color: #D1F0EE;
+ }
+    
 
 .tabla_horario{
-    width: 30rem;    
+    width: 35rem;    
    margin-bottom: 2rem;
-   margin-left: 3rem;   
+   margin-left: 6rem;   
    margin-right: 2rem;
 }
 
@@ -58,7 +66,7 @@ medio naturalde Bakio y sus alrededores.</a>
     width: 20rem;    
    margin-bottom: 2rem;
    margin-right: 1rem; 
-   margin-left: 1.5rem;
+   margin-left: 19rem;
    
 }
 
@@ -66,7 +74,7 @@ medio naturalde Bakio y sus alrededores.</a>
     width: 20rem;    
    margin-bottom: 2rem;
    margin-right: 5rem; 
-   margin-left: 1rem; 
+   margin-left: 15rem; 
 }
 
 /* .tabla_actividades{
@@ -78,9 +86,9 @@ medio naturalde Bakio y sus alrededores.</a>
 
 .tabla_actividades{
    width: 35rem; 
-   margin-top: 2rem;
-   margin-bottom: 2rem;
-   margin-bottom: 4rem;
+   margin-top: 2rem;   
+   margin-bottom: 6rem;
+   margin-left: 6rem;
    
       
 }
@@ -92,14 +100,17 @@ medio naturalde Bakio y sus alrededores.</a>
 }
 
 .incluye_lista{
-    margin-left: 5rem;
-    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 18rem;
+    font-size: 1rem;
 }
 
 .incluye_titulo{
-    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-left: 12rem;
     border-left: solid 3px rgba(0, 0, 0, 0.287);
     padding-left: 0.5rem;
+    color: white;
     
     
 
@@ -119,7 +130,7 @@ display: flex;
     
 }
 .texto_udalekus{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     /* font-weight: 700; */
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -131,7 +142,7 @@ display: flex;
 }
 
 .tabla_udalekus{
-   width: 40rem; 
+   width: 35rem; 
    margin-top: 2rem;
    margin-bottom: 2rem;
    margin-left: 5rem;   
@@ -140,7 +151,7 @@ display: flex;
 .tienda_fisica{
    width: 18rem;    
    margin-bottom: 2rem;
-   margin-left: 3rem;   
+   margin-left: 13rem;   
    margin-right: 2rem;
 }
 
