@@ -1,5 +1,6 @@
 <template>
-    <NavBarSinFoto/> 
+    <NavBar />
+    <!-- <NavBarSinFoto/>  -->
     <Blog /> 
     <Footer />
 
@@ -9,8 +10,8 @@
     
     
     <script setup>
-
-    import NavBarSinFoto from "@/components/NavBarSinFoto.vue";    
+    import NavBar from "@/components/NavBar.vue"
+    // import NavBarSinFoto from "@/components/NavBarSinFoto.vue";    
     import Blog from "@/components/Blog.vue"
     import Footer from "@/components/Footer.vue"
     

@@ -108,7 +108,8 @@ medio naturalde Bakio y sus alrededores.</a>
 .incluye_titulo{
     margin-top: 2rem;
     margin-left: 12rem;
-    border-left: solid 3px rgba(0, 0, 0, 0.287);
+    border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
     padding-left: 0.5rem;
     color: white;
     

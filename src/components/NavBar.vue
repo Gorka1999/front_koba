@@ -5,11 +5,11 @@
     
 
     <ul>
-    <router-link to ='/' ><button>Home</button></router-link> 
-    <router-link to ='/UdalekusView'><button>Udalekus</button></router-link> 
-    <router-link to ='/CursosView'><button>Cursos</button></router-link> 
-    <router-link to ='/BlogView'><button>Blog</button></router-link> 
-    <router-link to ='/InformacionView'><button>Informacion</button></router-link>  
+    <router-link to ='/' ><button><span>Home</span></button></router-link> 
+    <router-link to ='/UdalekusView' @click="bajar"><button><span>Udalekus</span></button></router-link> 
+    <router-link to ='/CursosView' @click="bajar"><button><span>Cursos</span></button></router-link> 
+    <router-link to ='/BlogView' @click="bajar"><button><span>Blog</span></button></router-link> 
+    <router-link to ='/InformacionView' @click="bajar"><button><span>Información</span></button></router-link>  
     </ul>
     
     <div class="desplazar">
@@ -79,7 +79,7 @@ a{
 }
 
 button{
-    width: 6rem;
+    width: 10rem;
     height: 3rem;
     background-color:   rgba(245, 245, 245, 0.771);
     border-radius: 0.5rem;  
@@ -87,6 +87,13 @@ button{
     justify-content: center;
     align-items: center;
     color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;    
+}
+
+button:hover{
+    background-color: #45494C;
 }
 
 
@@ -96,11 +103,12 @@ button{
     margin-right: 1rem;
     display:flex;
     justify-content:center;
-    align-items:center;
-    flex-wrap:wrap; 
+    align-items:center;   
     background-color: rgba(0, 0, 0, 0.287);
     width: 2rem;  
     margin: auto; 
+    margin-top: 12rem;
+    cursor: pointer;
  }
 
 

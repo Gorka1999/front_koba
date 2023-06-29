@@ -82,7 +82,7 @@ a {
 }
 
 .seccion h1 {
-	font-size: 48px;
+	/* font-size: 48px; */
 	margin-bottom: 2rem;
 }
 
@@ -91,6 +91,8 @@ a {
 	margin-bottom: 40px;
 	color: #494949;
 	font-size: 20px;
+	border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
 }
 
 .seccion img {

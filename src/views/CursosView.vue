@@ -1,5 +1,6 @@
 <template>
-    <NavBarSinFoto/> 
+    <NavBar />
+    <!-- <NavBarSinFoto/>  -->
     <Cursos /> 
     <Footer />
     
@@ -8,8 +9,8 @@
     
     
     <script setup>
-
-    import NavBarSinFoto from "@/components/NavBarSinFoto.vue";
+    import NavBar from "@/components/NavBar.vue"
+    // import NavBarSinFoto from "@/components/NavBarSinFoto.vue";
     import Cursos from "@/components/Cursos.vue"
     import Footer from "@/components/Footer.vue"
     

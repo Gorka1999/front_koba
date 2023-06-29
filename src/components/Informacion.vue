@@ -5,7 +5,7 @@
     </div>
 
     <div class="encuentranos" >   
-        <a class="texto" >Aurki gaitzazu hamen!!<br> // Encuentranos aqui!! </a>
+        <a class="textoo" >Aurki gaitzazu hamen!!<br> // Encuentranos aqui!! </a>
     </div>
 </div>
 
@@ -21,7 +21,7 @@
     display: flex;
 }
 
-.texto{
+.textoo{
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 2rem;
