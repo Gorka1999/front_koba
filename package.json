@@ -16,6 +16,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@vue/compiler-sfc": "^3.3.4",
     "core-js": "^3.8.3",
+    "googleapis": "^120.0.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },

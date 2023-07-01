@@ -34,7 +34,15 @@ function bajar(){
 </script>
 
 <style scoped>
-
+@font-face {
+  font-family: 'Original Surfer';
+  src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: "Original Surfer";
+}
 .navBar{
     
     justify-content: center;
@@ -44,6 +52,7 @@ function bajar(){
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 ul{
@@ -90,6 +99,7 @@ button{
     cursor: pointer;
     text-transform: uppercase;
     transition: .3s ease all;    
+    
 }
 
 button:hover{
@@ -97,7 +107,7 @@ button:hover{
 }
 
 
- i{
+ .desplazar i{
     font-size: 2rem;
     color:black;
     margin-right: 1rem;

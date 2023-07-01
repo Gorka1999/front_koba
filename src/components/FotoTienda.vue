@@ -3,45 +3,81 @@
 		<div class="seccion" id="1">
 			<div class="card">
 				<h1>UDALEKUS</h1>
-				<img src="../assets/imgHome/udalekus.jpg" alt="udalekus">
+				<!-- <router-link to ='/UdalekusView'><img src="../assets/imgHome/udalekus.jpg" alt="udalekus"></router-link> -->
+			</div>
+			<div>			
+				<a href="/UdalekusView" >
+					<img  @click="bajar" src="../assets/imgHome/udalekus.jpg" alt="Foto" />
+				</a>
 			</div>
 		</div>
 
 		<div class="seccion" id="2">
 			<div class="card">
 				<h1>CURSOS</h1>
-				<img src="../assets/imgHome/cursosHome.jpeg" alt="blog">
+				<!-- <router-link to ='/CursosView'><img src="../assets/imgHome/cursosHome.jpeg" alt="blog"></router-link> -->
+			</div>
+			<div>			
+				<a href="/CursosView" >
+					<img  @click="bajar" src="../assets/imgHome/cursosHome.jpeg" alt="Foto" />
+				</a>
 			</div>
 		</div>
 
 		<div class="seccion" id="3">
 			<div class="card">
 				<h1>BLOG</h1>
-				<img src="../assets/imgHome/blogNew.jpg" alt="blog">
+				<!-- <router-link to ='/BlogView'><img src="../assets/imgHome/blogNew.jpg" alt="blog"></router-link> -->
+			</div>
+			<div>			
+				<a href="/BlogView" >
+					<img  @click="bajar" src="../assets/imgHome/blogNew.jpg" alt="Foto" />
+				</a>
 			</div>
 		</div>
 
 		<div class="seccion" id="4">
 			<div class="card">
 				<h1>INFORMACION</h1>
-				<img src="../assets/imgHome/infoBakio.png" alt="info">
+				<!-- <router-link to ='/InformacionView'><img src="../assets/imgHome/infoBakio.png" alt="info"></router-link> -->
+			</div>
+			<div>			
+				<a href="/InformacionView" >
+					<img  @click="bajar" src="../assets/imgHome/infoBakio.png" alt="Foto" />
+				</a>
 			</div>
 		</div>
 		
 	</div>
     
 </template>
+<script>
+function bajar(){
+    window.scrollTo ({
+        top:600,
+        behavior:'smooth'
+    })
+}
+</script>
 
 <style>
 
 html {
 	scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'Original Surfer';
+  src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Original Surfer";
+	
 }
 
 body {
@@ -84,7 +120,11 @@ a {
 .seccion h1 {
 	/* font-size: 48px; */
 	margin-bottom: 2rem;
+	border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
+	width: 13rem
 }
+
 
 .seccion p {
 	line-height: 38px;
@@ -98,6 +138,7 @@ a {
 .seccion img {
 	width: 50%;
 	vertical-align: top;
+	
 	
 }
 

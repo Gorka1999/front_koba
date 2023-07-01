@@ -4,7 +4,7 @@
     <Blog /> 
     <Footer />
 
-    <h1>Blog</h1>
+    
     
     </template>
     

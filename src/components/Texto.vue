@@ -12,17 +12,48 @@
   </script>
   
   <style>
-  .primerParrafo {
+@font-face {
+  font-family: 'Original Surfer';
+  src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
   font-family: 'Chalkduster';
+  src: url('../assets/Chalkduster/Chalkduster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+.primerParrafo {
+  
+  font-family: 'Original Surfer', sans-serif; /*Utiliza comillas en el nombre de la fuente */
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: #0d0606;
   text-align: center;
-  
   transition: color 0.3s ease-in-out;
 }
+
+  /* @font-face {
+  font-family: 'Original Surfer';
+  src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  .primerParrafo {
+  font-family: original-surfer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #0d0606;
+  text-align: center;  
+  transition: color 0.3s ease-in-out;
+} */
 
   
   .texto {

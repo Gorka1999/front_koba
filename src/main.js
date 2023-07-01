@@ -31,7 +31,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 
 // Importa los estilos de Font Awesome
-import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/css/all.css'; 
 
 import App from './App.vue';
 import router from './router';
