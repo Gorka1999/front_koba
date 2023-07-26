@@ -9,18 +9,30 @@
             <img class="fotomikel" src="../assets/MYA/mikel.png" alt="mikel">
             
         </div>
-        <div>
+        <div class="cajaAnton" >
             <h2 class="nombreanton" >ANTON GOITIA</h2>
             <img class="anton" src="../assets/MYA/anton.png" alt="anton">
         </div> 
        
     </div>
     <div>
-        <p>Mikel Goitia y Anton Goitia, locales de Bakio, somos unos apasionados del mar y la naturaleza. Nuestro amor por el océano se refleja en nuestra dedicación como instructores de surf. Con una amplia experiencia y múltiples certificaciones.</p>
-        <p>Ambos poseemos los títulos de nivel 1 y nivel 2 de la EHSF (Euskal surf federazioa), lo que demuestra nuestra sólida formación y conocimiento en técnicas de surf. Además, contamos con una certificación en socorrismo para surfistas y rescates de surf, lo que garantiza la seguridad de nuestros estudiantes en el agua.</p>
+        <p class="textoMyA" >Mikel Goitia y Anton Goitia, locales de Bakio, somos unos apasionados del mar y la naturaleza. Nuestro amor por el océano se refleja en nuestra dedicación como instructores de surf. Con una amplia experiencia y múltiples certificaciones.</p>
+        <p class="textoMyA" >Ambos poseemos los títulos de nivel 1 y nivel 2 de la EHSF (Euskal surf federazioa), lo que demuestra nuestra sólida formación y conocimiento en técnicas de surf. Además, contamos con una certificación en socorrismo para surfistas y rescates de surf, lo que garantiza la seguridad de nuestros estudiantes en el agua.</p>
     </div>   
-</div> 
+</div>
 
+<h2 class="dondeestamostitulo" >¿DONDE ESTAMOS?</h2>
+<div>
+    <P class="textoMyA" >Bakio es un lugar idílico para aquellos que buscan conectar con la naturaleza, disfrutar de la playa y el mar, y maravillarse con la belleza del paisaje vasco en la costa norte de España. Es un destino que combina a la perfección la belleza del mar con la majestuosidad de la naturaleza circundante, creando un lugar verdaderamente especial y memorable para todos los que lo visitan. 
+        Su hermosa playa, sus impresionantes acantilados, su rica vida marina y su entorno natural lo convierten en un destino ideal para aquellos que buscan disfrutar de la belleza y la tranquilidad de la costa vasca.
+    </P>
+</div>
+<div class="fotosbakio" >
+    <img class="fotobakio1" src="../assets/fotosbakio/bakiodesdealante.jpg" alt="">
+    <img class="fotobakio" src="../assets/fotosbakio/playadebakio.jpg" alt="">
+    <img class="fotobakio3" src="../assets/fotosbakio/acantiladosbakio.jpg" alt="">
+
+</div>
 
 <div class="contenedor_info_sitio" >
     <div class="google_map" >
@@ -35,11 +47,41 @@
 
 </template>
 
-<style>
-p{
+<style scoped>
+.cajaAnton{
+    margin-right: 4rem;
+}
+.fotobakio3{
+    width: 25rem;
+    height: 17rem;
+    border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
+    margin-left: 2rem;
+}
+.fotobakio1{
+    width: 25rem;
+    height: 17rem;
+    border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
+    margin-left: 2rem;
+}
+.fotobakio{
+    width: 20rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;    
+    
+    border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
+}
+.dondeestamostitulo{
+    margin-left: 3rem;
+    border-left: solid 5px rgba(0, 0, 0, 0.287);
+    padding-left: 0.5rem;
+}
+.textoMyA{
     font-family: 'Original Surfer', sans-serif; /*Utiliza comillas en el nombre de la fuente */
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.2rem; 
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-left: solid 5px rgba(0, 0, 0, 0.287);
@@ -57,8 +99,9 @@ p{
     padding-left: 0.5rem;
 }
 .anton{
-    width: 30rem;
-    margin-right: 4rem;
+    width: 28rem;
+    height: 20rem;
+    
     margin-top: 1rem;
     border-left: solid 5px rgba(0, 0, 0, 0.287);
     padding-left: 0.5rem;
@@ -121,8 +164,54 @@ p{
     margin-left: 15rem; 
 }
 
-.router-link-exact-active{
-    background-color: rgba(0, 0, 0, 0.287);
-} 
+
+
+@media screen and (max-width: 768px) {
+  .nombress {
+    flex-direction: column;
+  }
+
+  .mikel,
+  .nombreanton {
+    margin-bottom: 20px;
+  }
+
+  .fotomikel{
+    max-width: 100%;
+    margin-left:0.1rem;
+  }
+  .anton {
+    max-width: 100%;
+    margin-left: 0.1rem;
+  }
+  @media screen and (max-width: 768px) {
+    .contenedor_info_sitio {
+        flex-direction: column;
+    }
+
+    .google_map {
+        order: 2;
+    }
+
+    .encuentranos {
+        order: 1;
+        text-align: center;
+        margin: 1rem;
+    }
+    .mapa{
+    
+    margin-left: 0rem; 
+}
+}
+
+/* Estilos para pantallas más grandes (por ejemplo, a partir de 992px) */
+@media screen and (min-width: 992px) {
+    .encuentranos {
+        margin-top: 8rem;
+        margin-left: 4rem;
+    }
+}
+}
+
 
 </style>

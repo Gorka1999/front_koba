@@ -4,14 +4,23 @@
     <router-link to ='/' ><img class="logo" src="../assets/logo/LOGOKOBA.png" alt="logo"></router-link>
     
 
-    <ul>
+    <div class="barranav" >
     <router-link to ='/' ><button><span>Home</span></button></router-link> 
     <router-link to ='/UdalekusView' @click="bajar"><button><span>Udalekus</span></button></router-link> 
     <router-link to ='/CursosView' @click="bajar"><button><span>Cursos</span></button></router-link> 
     <router-link to ='/BlogView' @click="bajar"><button><span>Blog</span></button></router-link> 
     <router-link to ='/InformacionView' @click="bajar"><button><span>Información</span></button></router-link>  
-    </ul>
+    </div>
+    <!-- <nav class="navbar navbar-light bg-light">
+  <form class="container-fluid justify-content-start mt-5">
+    <router-link to ='/' ><button class="btn btn-outline-success me-2 " type="button">HOME</button></router-link> 
+    <router-link to ='/UdalekusView' @click="bajar"><button class="btn btn-outline-success me-2" type="button">UDALEKUAK</button></router-link> 
+    <router-link to ='/CursosView' @click="bajar"><button class="btn btn-outline-success me-2" type="button">CURSOS</button></router-link> 
+    <router-link to ='/BlogView' @click="bajar"><button class="btn btn-outline-success me-2" type="button">BLOG</button></router-link>
+    <router-link to ='/InformacionView' @click="bajar"><button class="btn btn-outline-success me-2" type="button">INFORMACION</button></router-link>
     
+  </form>
+</nav> -->
     <div class="desplazar">
 
         <i @click="bajar" class="fa-sharp fa-solid fa-arrow-down fa-bounce"></i>       
@@ -43,102 +52,55 @@ function bajar(){
 *{
     font-family: "Original Surfer";
 }
-.navBar{
-    
-    justify-content: center;
-    object-fit: contain;
-    height: 36rem;
-    background-image: url(../assets/imgHome/MyA.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-
-ul{
-    display: flex;
-    flex-direction: row;    
-    position: center;   
-    padding-top: 5rem;
-    justify-content: center;
-}
-
-a{
-    margin: 3rem;
-    
-    /* background-color: aqua; */
-}
-
-.containerFotos{
-    display: flex;
-    flex-direction: row;
-
-}
-
-.containerFoto{
-    width: 40%;
-    margin-top: 2rem;
-   
-   
-}
-.containerFoto > img  {
-    height: 40rem;
-    width: 50rem;
-    object-fit: cover;
-}
-
-button{
-    width: 10rem;
-    height: 3rem;
-    background-color:   rgba(245, 245, 245, 0.771);
-    border-radius: 0.5rem;  
-    border : 0.1rem solid rgba(0, 0, 0, 0.539);;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s ease all;    
-    
-}
-
-button:hover{
-    background-color: #45494C;
-}
-
-
- .desplazar i{
-    font-size: 2rem;
-    color:black;
-    margin-right: 1rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;   
-    background-color: rgba(0, 0, 0, 0.287);
-    width: 2rem;  
-    margin: auto; 
-    margin-top: 12rem;
-    cursor: pointer;
- }
-
-
-
-    /* margin-left: 25rem;
-    margin-right: 25rem; */
-
-
 .logo{
-    width: 10%;
-    height: 10%;
     margin-top: 2rem;
     margin-left: 2rem;
+  }
+.navBar{
+  background-image: url("../assets/imgHome/MyA.jpg") ;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.barranav{
+  display: flex;
+  justify-content: space-around;
+  margin-top:6rem;
 
+  
+}
+button{
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.logo{
+  width: 10rem;
 }
 
+@media (max-width: 450px) {
+  
+.barranav{
+  flex-direction: column;
+  margin-left: 8rem;   
 
-
- .router-link-exact-active{
-    background-color: rgba(0, 0, 0, 0.287);
-} 
+}
+button{
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+.logo{
+  width: 5rem;
+}
+  .navBar {    
+    
+    background-size: contain; 
+  }
+}
 
 </style>

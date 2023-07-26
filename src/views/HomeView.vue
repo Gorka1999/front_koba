@@ -1,8 +1,7 @@
 <template>
 
 <NavBar /> 
-
- <!-- <PopUp/>  -->
+ <PopUp/> 
 <Texto />
 <Udalekus />
 <Footer />
@@ -14,7 +13,7 @@
 <script setup>
 
 import NavBar from "@/components/NavBar.vue"
-// import PopUp from "@/components/PopUp.vue"
+import PopUp from "@/components/PopUp.vue"
 import Texto from "@/components/Texto.vue"
 import Udalekus from "@/components/FotoTienda.vue"
 import Footer from "@/components/Footer.vue"

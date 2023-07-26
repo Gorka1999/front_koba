@@ -11,7 +11,7 @@
 
   </script>
   
-  <style>
+  <style scoped>
 @font-face {
   font-family: 'Original Surfer';
   src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
@@ -65,8 +65,28 @@
     margin-bottom: 3rem;
   }
   
-  .router-link-exact-active {
-    background-color: rgba(0, 0, 0, 0.287);
+  
+
+  /* Estilos para pantallas con un ancho máximo de 600px */
+@media (max-width: 600px) {
+  .texto {
+    width: 80%; /* Ajusta el ancho para que ocupe el 80% del ancho de la pantalla */
+    margin-left: auto; /* Elimina el margen izquierdo */
+    margin-right: auto; /* Elimina el margen derecho */
+    margin-top: 2rem; /* Reduce el margen superior */
+    margin-bottom: 2rem; /* Reduce el margen inferior */
   }
+
+  .primerParrafo {
+    font-size: 1.2rem; /* Reduce el tamaño del texto */
+  }
+}
+
+/* Estilos para pantallas con un ancho mínimo de 601px y máximo de 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .texto {
+    width: 70%; /* Ajusta el ancho para que ocupe el 70% del ancho de la pantalla */
+  }
+}
   </style>
   

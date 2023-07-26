@@ -2,7 +2,7 @@
     <div class="secciones">
 		<div class="seccion" id="1">
 			<div class="card">
-				<h1>UDALEKUS</h1>
+				<h1>UDALEKUAK</h1>
 				<!-- <router-link to ='/UdalekusView'><img src="../assets/imgHome/udalekus.jpg" alt="udalekus"></router-link> -->
 			</div>
 			<div>			
@@ -60,7 +60,7 @@ function bajar(){
 }
 </script>
 
-<style>
+<style scoped>
 
 html {
 	scroll-behavior: smooth;
