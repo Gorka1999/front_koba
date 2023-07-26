@@ -124,6 +124,16 @@ medio naturalde Bakio y sus alrededores."</a>
 *{
     font-family: "Original Surfer";
 }
+
+.cajamostrador{
+    display: flex;
+    flex-direction: row;
+}
+
+.cjaFotoSalvamento{
+    display: flex;
+    flex-direction: row;
+}
 .mempujando{
     width: 20rem;
     height: 18rem;

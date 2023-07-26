@@ -76,7 +76,7 @@
             <li>SUP + TRAJE =  1H-15€  / 2H-20€  / 4H-25€ /  1DIA-40€</li>
         </ul>
     </div>/
-    <div>
+    <div class="fotosalquiler" >
         <img src="../assets/cursillos/fotoPadel.jpg" alt="foto">
         <img src="../assets/cursillos/traje.jpg" alt="foto">
         <img class="losdos" src="../assets/fotosenkobapadel/losdos.jpg" alt="">
@@ -104,6 +104,20 @@
 
 
 <style scoped>
+@font-face {
+  font-family: 'Original Surfer';
+  src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: "Original Surfer";
+}
+
+.fotosalquiler{
+    display: flex;
+    flex-direction: row;
+}
 .gruposentados{
     width: 25rem;
     height: 20rem;

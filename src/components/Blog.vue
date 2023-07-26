@@ -55,6 +55,16 @@
 </script>
 
 <style scoped>
+
+@font-face {
+  font-family: 'Original Surfer';
+  src: url('../assets/original-surfer/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: "Original Surfer";
+}
 .bakiodesdemar{
     width: 20rem;
     height: 14rem;

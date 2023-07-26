@@ -10,15 +10,20 @@
   
             <label for="apellido">Apellido:</label>
             <input type="text" id="apellido" v-model="apellido" required>
-
-            <label for="DNI">DNI:</label>
-            <input type="text" id="DNI" v-model="DNI" required>
   
             <label for="telefono">Número de teléfono:</label>
             <input type="tel" id="telefono" v-model="telefono" required>
   
             <label for="correo">Correo electrónico:</label>
             <input type="email" id="correo" v-model="correo" required>
+
+            <label for="nivel">Nivel:</label>
+            <select v-model="nivel" id="nivel" required>
+            <option value="iniciacion">Iniciación</option>
+            <option value="medio">Medio</option>
+            <option value="avanzado">Tecnificación</option>
+            <option value="adaptado">Adaptado</option>
+            </select>
   
             <button type="submit">Enviar</button>
           </form>
@@ -70,6 +75,10 @@
   </script>
   
   <style scoped>
+
+*{
+    font-family: "Original Surfer";
+}
 .modal {
   position: fixed;
   top: 0;

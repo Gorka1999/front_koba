@@ -42,6 +42,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.iconos{
+  display: flex;
+  flex-direction: row;
+}
+
 p{
     font-family: "Original Surfer";
     text-decoration: none;
@@ -52,7 +58,7 @@ p{
 
 .redesSociales{
     display:flex;
-
+    
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;    

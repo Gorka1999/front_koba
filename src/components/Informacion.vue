@@ -48,6 +48,10 @@
 </template>
 
 <style scoped>
+
+*{
+    font-family: "Original Surfer";
+}
 .cajaAnton{
     margin-right: 4rem;
 }
